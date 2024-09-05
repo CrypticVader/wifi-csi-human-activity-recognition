@@ -1,4 +1,7 @@
 # Device Free Human Activity Recognition Using Wi-Fi CSI
 
-We use the Channel State Information (CSI), containing the amplitude & phase of subcarriers, of a Wi-Fi signal obtained using two ESP32 devices configured as transmitter & receiver to correctly predict & classify the presence of a human being & the physical activity they are performing. This is done by training recurrent neural networks on the recorded CSI data.
-We have explored several model architectures & hyper parameters to improve the robustness of the model on unseen data & varying environments.
+---
+
+## Project Overview
+
+This project leverages Channel State Information (CSI), which includes both the amplitude and phase information of multiple subcarriers of a Wi-Fi signal, reflecting the channel's response between the transmitter and receiver, to detect human presence and classify physical activities. The CSI data is collected using two ESP32 devices configured as a transmitter and a receiver. Our approach involves training recurrent neural networks (RNNs) on the recorded CSI data to accurately predict human presence and the activity being performed. We have experimented with various model architectures and hyperparameters to enhance the model's robustness on unseen data and in diverse environments.
